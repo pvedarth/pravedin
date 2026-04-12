@@ -8,7 +8,7 @@ export function Logo({ className }: { className?: string }) {
       alt="PRAVEDIN Logo"
       width={64}
       height={64}
-      className={cn(className)}
+      className={cn("mix-blend-multiply dark:mix-blend-screen", className)}
     />
   );
 }

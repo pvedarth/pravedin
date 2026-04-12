@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { ContactForm } from './ContactForm';
 import { socialLinks } from '@/lib/placeholder-data';
 import Link from 'next/link';
-import { Facebook, Linkedin, Mail, Phone } from 'lucide-react';
+import { Facebook, Linkedin, Instagram, Github, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
@@ -12,6 +12,8 @@ export const metadata: Metadata = {
 const socialIcons: { [key: string]: React.ReactNode } = {
   facebook: <Facebook className="h-6 w-6" />,
   linkedin: <Linkedin className="h-6 w-6" />,
+  instagram: <Instagram className="h-6 w-6" />,
+  github: <Github className="h-6 w-6" />,
 };
 
 export default function ContactPage() {
@@ -25,24 +27,19 @@ export default function ContactPage() {
           Have a question or want to work together? Drop me a line.
         </p>
       </div>
-
       <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-12">
         <div className="space-y-8">
-            <h2 className="text-2xl font-semibold font-headline">Contact Information</h2>
-            <p className="text-muted-foreground">
-                You can reach me via email or phone, or connect with me on social media. I look forward to hearing from you!
-            </p>
-            <div className="space-y-4">
-                <a href="mailto:hello@pravedin.com" className="flex items-center gap-4 group">
-                    <Mail className="h-6 w-6 text-primary"/>
-                    <span className="text-lg group-hover:underline">hello@pravedin.com</span>
-                </a>
-                <a href="tel:+1234567890" className="flex items-center gap-4 group">
-                    <Phone className="h-6 w-6 text-primary"/>
-                    <span className="text-lg group-hover:underline">(123) 456-7890</span>
-                </a>
-            </div>
-            <div className="flex space-x-4 pt-4">
+          <h2 className="text-2xl font-semibold font-headline">Contact Information</h2>
+          <p className="text-muted-foreground">
+            You can reach me via email or connect with me on social media. I look forward to hearing from you!
+          </p>
+          <div className="space-y-4">
+            <a href="mailto:prashanth.vedartham@gmail.com" className="flex items-center gap-4 group">
+              <Mail className="h-6 w-6 text-primary"/>
+              <span className="text-lg group-hover:underline">prashanth.vedartham@gmail.com</span>
+            </a>
+          </div>
+          <div className="flex space-x-4 pt-4">
             {socialLinks.map((link) => (
               <Button key={link.name} asChild variant="outline" size="icon" className="h-12 w-12 rounded-full">
                 <Link href={link.href} target="_blank" aria-label={link.name}>
