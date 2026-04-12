@@ -10,162 +10,208 @@ export const navLinks = [
 ];
 
 export const socialLinks = [
-  { name: 'linkedin', href: 'https://www.linkedin.com' },
-  { name: 'facebook', href: 'https://www.facebook.com' },
+  { name: 'linkedin', href: 'https://www.linkedin.com/in/prashvedartham/' },
+  { name: 'instagram', href: 'https://www.instagram.com/prashveda/' },
+  { name: 'facebook', href: 'https://www.facebook.com/prashanth.vedartham' },
+  { name: 'github', href: 'https://github.com/pvedarth' },
 ];
 
 export const blogPosts = [
   {
     id: 1,
-    title: 'The Art of Disconnecting in a Connected World',
-    slug: 'art-of-disconnecting',
+    title: 'What Does It Mean to Live Well? Reflections on Purpose in a Distracted Age',
+    slug: 'living-well-purpose-distracted-age',
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'peaceful forest',
-    excerpt: 'Exploring strategies to find balance and reclaim our attention from the digital noise that surrounds us daily.',
-    content: 'In an era defined by constant connectivity, the ability to consciously disconnect is not just a luxury; it’s a necessity for mental and emotional well-being. This post delves into the philosophy behind digital minimalism and offers practical steps to cultivate a healthier relationship with technology.',
-    author: 'Jane Doe',
-    date: '2023-10-26',
-    tags: ['Mindfulness', 'Technology'],
+    aiHint: 'peaceful sunrise mountains',
+    excerpt: 'In a world optimised for productivity and output, I find myself returning to a simpler question: what does a life well-lived actually look like?',
+    content: 'We measure our days in tasks completed, meetings attended, and notifications cleared. But somewhere in that relentless forward motion, the deeper question gets lost. This post is a personal reflection on slowing down, finding meaning, and reconnecting with what truly matters — drawn from my own journey across continents and careers.',
+    author: 'Prashanth Vedartham',
+    date: '2024-11-10',
+    tags: ['Meaning', 'Purpose', 'Reflection'],
   },
   {
     id: 2,
-    title: 'Lessons Learned from a Solo Hike on the John Muir Trail',
-    slug: 'lessons-from-jmt',
+    title: 'On Uprooting: What Leaving Home Teaches You About Who You Are',
+    slug: 'on-uprooting-leaving-home',
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'mountain trail',
-    excerpt: 'Three weeks in the wilderness teaches you more than just survival skills. It reshapes your perspective on life, resilience, and solitude.',
-    content: 'The John Muir Trail is more than just a path through the Sierra Nevada; it\'s a pilgrimage. This is a chronicle of my journey, the challenges I faced, the moments of breathtaking beauty, and the profound lessons I carried back with me to civilization.',
-    author: 'Jane Doe',
-    date: '2023-09-15',
-    tags: ['Nature', 'Adventure', 'Reflection'],
+    aiHint: 'journey road new land',
+    excerpt: 'Moving across the world strips away the familiar and forces a confrontation with the self. It is uncomfortable, humbling, and quietly transformative.',
+    content: 'When I moved to New Zealand, I carried more than luggage. I carried assumptions about identity, belonging, and what success is supposed to look like. This essay explores how displacement — voluntary or otherwise — can become one of the most clarifying experiences of a lifetime, if you let it.',
+    author: 'Prashanth Vedartham',
+    date: '2024-08-22',
+    tags: ['Identity', 'Migration', 'Growth'],
   },
   {
     id: 3,
-    title: 'Clean Code, Clean Mind: How Software Principles Apply to Life',
-    slug: 'clean-code-clean-mind',
+    title: 'The Quiet Discipline: How Stoicism Helps Me Navigate Uncertainty',
+    slug: 'stoicism-navigating-uncertainty',
     image: 'https://placehold.co/600x400.png',
-    aiHint: 'minimalist desk',
-    excerpt: 'The principles of writing elegant, maintainable software have surprising parallels in how we can organize our lives for clarity and purpose.',
-    content: 'Simplicity, readability, and refactoring aren\'t just for programmers. This essay explores how we can apply the core tenets of clean code to our habits, relationships, and goals to build a more intentional and less cluttered life.',
-    author: 'Jane Doe',
-    date: '2023-08-02',
-    tags: ['Productivity', 'Philosophy', 'Code'],
+    aiHint: 'minimalist desk journal calm',
+    excerpt: 'Ancient philosophy does not offer easy answers. But it does offer a steadier footing when the ground keeps shifting beneath you.',
+    content: 'In a career that has spanned healthcare IT, financial services, and digital transformation, the one constant has been change. I came to Stoic philosophy not as an academic exercise but out of necessity — searching for frameworks to stay grounded, purposeful, and clear-headed through transitions. Here is what I have found.',
+    author: 'Prashanth Vedartham',
+    date: '2024-06-05',
+    tags: ['Philosophy', 'Stoicism', 'Resilience'],
   },
 ];
 
 export const careerHistory = [
   {
     id: 1,
-    role: 'Senior Software Engineer',
-    company: 'Innovatech Solutions',
-    period: '2020 - Present',
-    description: 'Led development of a new cloud-based analytics platform, mentoring junior engineers and championing best practices in an agile environment.'
+    role: 'Customer Success Specialist',
+    company: 'Carepatron',
+    period: 'Sep 2025 – Present',
+    description: 'Ensuring healthcare professionals and clinic teams have a world-class experience on the platform. Responsibilities include guiding onboarding, troubleshooting, educating users on platform features, and advocating for customer needs internally through collaboration with product and support teams.'
   },
   {
     id: 2,
-    role: 'Software Engineer',
-    company: 'Data Dynamics',
-    period: '2017 - 2020',
-    description: 'Developed and maintained data processing pipelines, improving efficiency by 30% and contributing to key product features.'
+    role: 'Business Process Analyst',
+    company: 'Gallagher Security',
+    period: 'Jun 2024 – Oct 2024',
+    description: 'Drove workplace transformation as an early Microsoft Copilot adopter. Led the Pearler AI project lifecycle, facilitated process improvement working groups, developed internal and external knowledge bases, and supported SharePoint platform launch. Combined AI-driven innovation with project management to foster a culture of continuous improvement.'
   },
   {
     id: 3,
-    role: 'Junior Developer',
-    company: 'CodeCrafters Inc.',
-    period: '2015 - 2017',
-    description: 'Began my professional journey building and testing web applications, learning the fundamentals of software development and teamwork.'
-  }
+    role: 'Insights Analyst Intern',
+    company: 'Gallagher Security',
+    period: 'Feb 2024 – Jun 2024',
+    description: 'Engaged stakeholders across the Security Business to understand pain points and data needs. Mapped end-to-end processes, contributed to a Process and Systems Improvement Roadmap, and participated in Microsoft Copilot beta testing to evaluate AI use cases for organisation-wide rollout.'
+  },
+  {
+    id: 4,
+    role: 'Incident Manager & Process Lead',
+    company: 'Cisco',
+    period: 'Mar 2021 – Jun 2023',
+    description: 'Led incident management and service delivery for Cisco Managed Services Collaboration group, supporting Unified Communications Manager, Contact Centre, and Cloud Collaboration technologies. Built custom ServiceNow reports, managed Level 2/3 voice engineers, and mentored team members in customer management and professional growth.'
+  },
+  {
+    id: 5,
+    role: 'Major Incident & Problem Manager',
+    company: 'Fidelity Investments',
+    period: 'Nov 2016 – Jun 2020',
+    description: 'Progressed from Incident Problem Manager to Principal Systems Engineering Squad Leader over 3.5 years. Managed organisation-wide business-critical incidents, led post-incident reviews using 5 Whys analysis, defined team KPIs, and oversaw ITSM transformation across the India team. Platforms: ServiceNow, HP Service Manager.'
+  },
+  {
+    id: 6,
+    role: 'Technical Lead',
+    company: 'Cerner Corporation',
+    period: 'Feb 2015 – Nov 2016',
+    description: 'Provided mission-critical support for hosted healthcare applications, focusing on the Siemens-Cerner OPENLink integration engine. Managed network monitoring for US hospitals, mentored junior engineers, and contributed to disaster recovery and business continuity planning across Windows and Linux environments.'
+  },
+  {
+    id: 7,
+    role: 'Associate Consultant',
+    company: 'Siemens Technology and Services',
+    period: 'Jun 2011 – Jan 2015',
+    description: 'Delivered 24x7 interface support for Siemens healthcare applications across US hospitals, monitoring 50K+ alerts per month. Drove incident management, WAN monitoring, and knowledge base development for a team of 50 across Bangalore and Pennsylvania.'
+  },
 ];
 
 export const keyAchievements = [
   {
     id: 1,
-    title: 'Lead Engineer Award',
-    description: 'Recognized for outstanding leadership and technical contribution to the flagship "Project Titan" at Innovatech.',
+    title: 'Master of Digital Business — First Class Honours',
+    description: 'Completed an MDB with First Class Honours from Waikato Management School in 2024, gaining deep investigative knowledge of AI, digital transformation, and emerging technology trends.',
   },
   {
     id: 2,
-    title: 'Open Source Contributor',
-    description: 'Active contributor to several popular open-source libraries, focusing on performance and accessibility improvements.',
+    title: 'TOGAF 9 Certified Enterprise Architect',
+    description: 'Holds both TOGAF 9 Foundation and Certified credentials from The Open Group, underpinning a strong foundation in enterprise architecture frameworks and strategic IT planning.',
   },
   {
     id: 3,
-    title: 'Community Tech Talk',
-    description: 'Presented on "Mindful Technology" at the annual DevConnect conference, sharing insights on balancing tech careers with well-being.',
-  }
+    title: 'ITIL Certified — Foundation & Strategist',
+    description: 'Dual ITIL certifications including ITIL Strategist (Direct, Plan and Improve), reflecting 14+ years of applied expertise in IT Service Management across global enterprises.',
+  },
+  {
+    id: 4,
+    title: 'Multiple Excellence Awards',
+    description: 'Recognised across organisations with awards including the NOTT (Night On The Town) Award, Guiding Star, Outstanding Contribution Award, and the 3i Program Certificate.',
+  },
+  {
+    id: 5,
+    title: 'AI Transformation Pioneer at Gallagher',
+    description: 'Served as an early adopter in the Microsoft Copilot programme at Gallagher Security, helping shape the AI rollout strategy and contributing practical use cases before organisation-wide deployment.',
+  },
 ];
 
 export const futurePlans = [
   {
     id: 1,
     icon: 'code',
-    title: 'Master a New Language',
-    description: 'Deepen my expertise in system architecture by learning Rust and contributing to a major open-source project written in it.'
+    title: 'Transition into Enterprise Architecture',
+    description: 'Leverage my TOGAF certification, ITSM background, and digital business expertise to move into a dedicated Enterprise Architecture or Strategy & Planning role within a New Zealand or APJC organisation.'
   },
   {
     id: 2,
-    icon: 'book',
-    title: 'Author a Technical Book',
-    description: 'Share my knowledge by writing a book on the intersection of software engineering and mindful productivity.'
+    icon: 'cloud',
+    title: 'Deepen Cloud & AI Expertise',
+    description: 'Pursue AWS and Azure certifications and develop hands-on proficiency in AI-powered operations, building on my academic research and practical experience with Microsoft Copilot and AI adoption.'
   },
   {
     id: 3,
-    icon: 'globe',
-    title: 'Explore Southeast Asia',
-    description: 'Take a three-month sabbatical to travel through Vietnam, Thailand, and Cambodia, immersing myself in the culture and nature.'
+    icon: 'book',
+    title: 'Contribute to Knowledge & Community',
+    description: 'Share insights from 14+ years in ITSM and digital transformation through writing, mentoring, and community engagement — helping others navigate their own career transitions and technology journeys.'
   },
   {
     id: 4,
+    icon: 'globe',
+    title: 'Explore India Deeply',
+    description: 'Having lived much of my life focused on career and migration, I want to slow down and rediscover my own country — its landscapes, languages, and cultures — with fresh eyes and genuine curiosity.'
+  },
+  {
+    id: 5,
     icon: 'mountain',
-    title: 'Sustainable Living Project',
-    description: 'Start a small-scale permaculture garden to learn more about sustainable agriculture and reduce my carbon footprint.'
-  }
+    title: 'See More of the World',
+    description: 'Continue exploring the world beyond work — from the forests and fjords of New Zealand to destinations across Asia, Europe, and beyond — seeking perspective, connection, and wonder along the way.'
+  },
 ];
 
 export const personalInterests = [
   {
     id: 1,
     icon: 'hiking',
-    title: 'Mountain Hiking',
-    description: 'Finding peace and challenge on rugged trails and in high altitudes.'
+    title: 'Hiking & the Outdoors',
+    description: 'Finding clarity and perspective on trails — from Auckland\'s regional parks to the dramatic landscapes of the South Island.'
   },
   {
     id: 2,
     icon: 'photography',
     title: 'Nature Photography',
-    description: 'Capturing the subtle beauty of the natural world through my camera lens.'
+    description: 'Capturing New Zealand\'s extraordinary natural beauty through the lens — a practice in patience, presence, and seeing the world more carefully.'
   },
   {
     id: 3,
-    icon: 'coding',
-    title: 'Creative Coding',
-    description: 'Building generative art and interactive web experiences for fun.'
+    icon: 'heart',
+    title: 'Mental Health Advocacy',
+    description: 'Volunteering in support of mental health awareness and destigmatisation, believing that wellbeing is foundational to everything else we build in life.'
   },
   {
     id: 4,
-    icon: 'reading',
-    title: 'Stoic Philosophy',
-    description: 'Reading and applying ancient wisdom for modern challenges.'
+    icon: 'book',
+    title: 'Education & Youth',
+    description: 'Supporting initiatives that give young people access to quality education and opportunity, especially those from underserved communities.'
   },
   {
     id: 5,
-    icon: 'cooking',
-    title: 'Artisanal Bread Making',
-    description: 'The slow, meditative process of crafting sourdough from scratch.'
+    icon: 'leaf',
+    title: 'Conservation & Environment',
+    description: 'Contributing to environmental conservation efforts — from local community planting days to advocating for sustainable practices in everyday life.'
   },
   {
     id: 6,
-    icon: 'music',
-    title: 'Playing the Piano',
-    description: 'Interpreting classical and contemporary pieces as a form of expression.'
+    icon: 'globe',
+    title: 'Disaster & Humanitarian Relief',
+    description: 'Committed to helping communities recover from crisis through volunteering and supporting relief organisations working on the ground.'
   },
 ];
 
 export const photoGallery = [
   { id: 1, src: 'https://placehold.co/600x800.png', height: 800, alt: 'Misty Fiordland', location: 'Fiordland National Park, NZ', aiHint: 'new zealand fiord' },
-  { id: 2, src: 'https://placehold.co/600x400.png', height: 400, alt: 'Lupins at Lake Tekapo', location: 'Lake Tekapo, NZ', aiHint: 'new zealand lake' },
-  { id: 3, src: 'https://placehold.co/600x700.png', height: 700, alt: 'Aoraki / Mount Cook', location: 'Aoraki / Mount Cook National Park, NZ', aiHint: 'new zealand mountain' },
-  { id: 4, src: 'https://placehold.co/600x450.png', height: 450, alt: 'Wharariki Beach Arch', location: 'Wharariki Beach, NZ', aiHint: 'new zealand beach' },
-  { id: 5, src: 'https://placehold.co/600x900.png', height: 900, alt: 'Giant Kauri Tree', location: 'Waipoua Forest, NZ', aiHint: 'new zealand forest' },
-  { id: 6, 'src': 'https://placehold.co/600x400.png', height: 400, 'alt': 'Huka Falls', 'location': 'Taupō, NZ', aiHint: 'new zealand waterfall' },
+  { id: 2, src: 'https://placehold.co/600x400.png', height: 400, alt: 'Lupins at Lake Tekapo', location: 'Lake Tekapo, NZ', aiHint: 'new zealand lake lupins' },
+  { id: 3, src: 'https://placehold.co/600x700.png', height: 700, alt: 'Aoraki / Mount Cook', location: 'Aoraki / Mount Cook National Park, NZ', aiHint: 'new zealand mountain snow' },
+  { id: 4, src: 'https://placehold.co/600x450.png', height: 450, alt: 'Wharariki Beach Arch', location: 'Wharariki Beach, NZ', aiHint: 'new zealand beach arch' },
+  { id: 5, src: 'https://placehold.co/600x900.png', height: 900, alt: 'Giant Kauri Tree', location: 'Waipoua Forest, NZ', aiHint: 'new zealand kauri forest' },
+  { id: 6, src: 'https://placehold.co/600x400.png', height: 400, alt: 'Huka Falls', location: 'Taupō, NZ', aiHint: 'new zealand waterfall blue' },
 ];
