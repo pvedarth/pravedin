@@ -36,7 +36,7 @@ export default function AboutPage() {
               I'm Prashanth — an IT professional with 14+ years of international experience spanning financial services, healthcare, and technology. My career has taken me from managing mission-critical infrastructure at global enterprises like Fidelity Investments and Cisco, to completing a Master of Digital Business with First Class Honours from the University of Waikato, and now building customer success at a New Zealand healthtech startup.
             </p>
             <p className="mt-4 text-lg leading-relaxed">
-              In 2022, I made the leap to New Zealand — a country that has rewarded me with breathtaking landscapes, a gentler pace of life, and a renewed sense of what matters. This website is my digital home: a place to share my journey, my thinking, and the things that inspire me along the way.
+              In mid 2023, I made the leap to New Zealand — a country that has rewarded me with breathtaking landscapes, a gentler pace of life, and a renewed sense of what matters. This website is my digital home: a place to share my journey, my thinking, and the things that inspire me along the way.
             </p>
           </div>
           <div>

@@ -1,14 +1,14 @@
-import { cn } from "@/lib/utils";
 import Image from "next/image";
+import { cn } from "@/lib/utils";
 
-export function Logo({ className }: { className?: string }) {
+export function Logo({ className, markOnly = false }: { className?: string; markOnly?: boolean }) {
   return (
     <Image
-      src="/logo.png"
+      src={markOnly ? "/logo-only.svg" : "/logo-combined.svg"}
       alt="PRAVEDIN Logo"
-      width={64}
-      height={64}
-      className={cn("mix-blend-multiply dark:mix-blend-screen", className)}
+      width={markOnly ? 40 : 180}
+      height={40}
+      className={cn(className)}
     />
   );
 }

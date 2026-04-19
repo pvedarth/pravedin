@@ -16,9 +16,8 @@ export function Footer() {
     <footer className="bg-card border-t">
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
-          <Link href="/" className="flex items-center gap-2 text-lg font-semibold font-headline">
-            <Logo className="h-8 w-8" />
-            <span>PRAVEDIN</span>
+          <Link href="/">
+            <Logo className="h-10" />
           </Link>
           <div className="flex items-center space-x-2">
             {socialLinks.map((link) => (

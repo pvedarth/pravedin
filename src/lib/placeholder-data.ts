@@ -208,10 +208,10 @@ export const personalInterests = [
 ];
 
 export const photoGallery = [
-  { id: 1, src: 'https://placehold.co/600x800.png', height: 800, alt: 'Misty Fiordland', location: 'Fiordland National Park, NZ', aiHint: 'new zealand fiord' },
-  { id: 2, src: 'https://placehold.co/600x400.png', height: 400, alt: 'Lupins at Lake Tekapo', location: 'Lake Tekapo, NZ', aiHint: 'new zealand lake lupins' },
-  { id: 3, src: 'https://placehold.co/600x700.png', height: 700, alt: 'Aoraki / Mount Cook', location: 'Aoraki / Mount Cook National Park, NZ', aiHint: 'new zealand mountain snow' },
-  { id: 4, src: 'https://placehold.co/600x450.png', height: 450, alt: 'Wharariki Beach Arch', location: 'Wharariki Beach, NZ', aiHint: 'new zealand beach arch' },
-  { id: 5, src: 'https://placehold.co/600x900.png', height: 900, alt: 'Giant Kauri Tree', location: 'Waipoua Forest, NZ', aiHint: 'new zealand kauri forest' },
-  { id: 6, src: 'https://placehold.co/600x400.png', height: 400, alt: 'Huka Falls', location: 'Taupō, NZ', aiHint: 'new zealand waterfall blue' },
+  { id: 1, src: 'https://placehold.co/600x400.png', height: 400, alt: 'Lupins at Lake Tekapo', location: 'Lake Tekapo, NZ', aiHint: 'new zealand lake lupins' },
+  { id: 2, src: 'https://placehold.co/600x700.png', height: 700, alt: 'Aoraki / Mount Cook', location: 'Aoraki / Mount Cook National Park, NZ', aiHint: 'new zealand mountain snow' },
+  { id: 3, src: 'https://placehold.co/600x500.png', height: 500, alt: 'Square Kauri Tree', location: 'Waipoua Forest, NZ', aiHint: 'new zealand kauri forest' },
+  { id: 4, src: 'https://placehold.co/600x400.png', height: 400, alt: 'Huka Falls', location: 'Taupō, NZ', aiHint: 'new zealand waterfall blue' },
+  { id: 5, src: 'https://placehold.co/600x800.png', height: 800, alt: 'Lake Pukaki', location: 'Lake Pukaki, NZ', aiHint: 'new zealand turquoise lake mountains' },
+  { id: 6, src: 'https://placehold.co/600x700.png', height: 700, alt: 'Glenorchy', location: 'Glenorchy, NZ', aiHint: 'new zealand glenorchy mountains lake' },
 ];
