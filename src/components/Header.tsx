@@ -29,7 +29,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/">
-          <Logo className="h-10" />
+          <Logo className="h-12" />
         </Link>
 
         {/* Desktop Navigation */}
@@ -66,7 +66,7 @@ export function Header() {
               <div className="flex h-full flex-col">
                 <div className="flex items-center justify-between border-b pb-4">
                   <Link href="/">
-                    <Logo className="h-10" />
+                    <Logo className="h-12" />
                   </Link>
                   <SheetClose asChild>
                     <Button variant="ghost" size="icon">

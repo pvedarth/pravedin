@@ -23,7 +23,7 @@ export default function InterestsPage() {
           <Card key={interest.id} className="text-center shadow-lg hover:shadow-xl transition-shadow transform hover:-translate-y-1">
             <CardHeader>
               <div className="mx-auto bg-accent/20 rounded-full p-4 w-fit">
-                <Logo markOnly className="h-10 w-10" />
+                <Logo markOnly className="h-12 w-12" />
               </div>
               <CardTitle className="mt-4 font-headline">{interest.title}</CardTitle>
             </CardHeader>

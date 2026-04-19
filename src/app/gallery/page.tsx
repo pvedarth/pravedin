@@ -19,24 +19,25 @@ export default function GalleryPage() {
         </p>
       </div>
 
-      <div className="mt-16 columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
+      <div className="mt-16 columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
         {photoGallery.map((photo) => (
           <div key={photo.id} className="break-inside-avoid">
-             <Card className="overflow-hidden group">
-                <div className="overflow-hidden">
-                    <Image
-                        src={photo.src}
-                        alt={photo.alt}
-                        width={600}
-                        height={photo.height}
-                        className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-110"
-                        data-ai-hint={photo.aiHint}
-                    />
-                </div>
-                <CardContent className="p-4">
-                    <p className="font-semibold">{photo.alt}</p>
-                    <p className="text-sm text-muted-foreground">{photo.location}</p>
-                </CardContent>
+            <Card className="overflow-hidden group">
+              <div className="overflow-hidden relative w-full">
+                <Image
+                  src={photo.src}
+                  alt={photo.alt}
+                  width={600}
+                  height={photo.height}
+                  className="w-full h-auto object-cover transition-transform duration-300 group-hover:scale-110"
+                  data-ai-hint={photo.aiHint}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </div>
+              <CardContent className="p-4">
+                <p className="font-semibold">{photo.alt}</p>
+                <p className="text-sm text-muted-foreground">{photo.location}</p>
+              </CardContent>
             </Card>
           </div>
         ))}

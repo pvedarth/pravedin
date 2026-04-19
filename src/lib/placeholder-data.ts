@@ -143,10 +143,10 @@ export const futurePlans = [
     description: 'Leverage my TOGAF certification, ITSM background, and digital business expertise to move into a dedicated Enterprise Architecture or Strategy & Planning role within a New Zealand or APJC organisation.'
   },
   {
-    id: 2,
-    icon: 'cloud',
-    title: 'Deepen Cloud & AI Expertise',
-    description: 'Pursue AWS and Azure certifications and develop hands-on proficiency in AI-powered operations, building on my academic research and practical experience with Microsoft Copilot and AI adoption.'
+  id: 2,
+  icon: 'cloud',
+  title: 'Deepen Cloud, AI & Data Visualisation',
+  description: 'Pursue AWS and Azure certifications and develop hands-on proficiency in AI-powered operations and data visualisation projects — building on my academic research and practical experience with Microsoft Copilot and AI adoption.'
   },
   {
     id: 3,

@@ -21,7 +21,7 @@ export default function Home() {
           <div className="bg-black/30 backdrop-blur-sm p-8 rounded-lg">
             <h1 className="font-headline text-5xl md:text-7xl font-bold">PRAVEDIN</h1>
             <p className="mt-2 text-md italic">
-              प्रवेदिन् (Sanskrit) - knowing well or accurately
+              प्रवेदिन् (Sanskrit) — means 'To know well or accurately'
             </p>
             <p className="mt-4 max-w-2xl text-lg md:text-xl">
               Exploring the intersections of technology, nature, and personal growth.
@@ -34,9 +34,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section className="container mx-auto px-4 py-16 text-center">
-        <Logo className="mx-auto h-16 w-16" />
+        <Logo markOnly className="mx-auto h-12 w-12" />
         <h2 className="mt-4 text-3xl font-headline font-semibold">A Little About Me</h2>
         <p className="mt-4 max-w-3xl mx-auto text-muted-foreground">
           I'm a passionate individual navigating the complexities of modern life while staying grounded in the beauty of the natural world. This space is a reflection of my journey, my work, and the things that inspire me.
