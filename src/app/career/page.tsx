@@ -22,12 +22,10 @@ export default function CareerPage() {
       <div className="mt-16">
         <h2 className="text-3xl font-bold text-center font-headline mb-12">Work Experience</h2>
         <div className="relative">
-          {/* Timeline line - hidden on mobile, shown on md+ */}
           <div className="hidden md:block absolute left-1/2 -ml-px h-full w-0.5 bg-border"></div>
           {careerHistory.map((job, index) => (
             <div key={job.id} className={`mb-8 flex flex-col md:flex-row md:items-center w-full ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
               <div className="hidden md:block md:w-1/2"></div>
-              {/* Timeline dot - hidden on mobile */}
               <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-primary border-2 border-background"></div>
               <div className="w-full md:w-1/2 md:px-8">
                 <Card className="shadow-lg">
@@ -54,9 +52,9 @@ export default function CareerPage() {
 
       <div className="mt-16">
         <h2 className="text-3xl font-bold text-center font-headline mb-12">Key Achievements</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
           {keyAchievements.map((achievement) => (
-            <Card key={achievement.id} className="text-center">
+            <Card key={achievement.id} className="text-center w-full md:w-[calc(33%-1rem)]">
               <CardHeader>
                 <div className="mx-auto bg-accent/20 rounded-full p-4 w-fit">
                   <Award className="h-10 w-10 text-accent"/>
@@ -70,6 +68,7 @@ export default function CareerPage() {
           ))}
         </div>
       </div>
+
     </div>
   );
 }

@@ -27,7 +27,7 @@ export default function FuturePlansPage() {
         </p>
       </div>
 
-      <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 [&>*:last-child:nth-child(odd)]:md:col-start-1 [&>*:last-child:nth-child(odd)]:md:col-end-3 [&>*:last-child:nth-child(odd)]:md:w-1/2 [&>*:last-child:nth-child(odd)]:md:mx-auto">
         {futurePlans.map((plan) => (
           <Card key={plan.id} className="shadow-lg hover:shadow-xl transition-shadow">
             <CardHeader className="flex flex-row items-center gap-4">

@@ -34,9 +34,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="container mx-auto px-4 py-16 text-center">
-        <Logo markOnly className="mx-auto h-12 w-12" />
-        <h2 className="mt-4 text-3xl font-headline font-semibold">A Little About Me</h2>
+      <section className="container mx-auto px-4 pt-6 pb-8 text-center">
+        <Logo markOnly className="mx-auto h-36 w-36" />
+            <h2 className="mt-2 text-3xl font-headline font-semibold">A Little About Me</h2>
         <p className="mt-4 max-w-3xl mx-auto text-muted-foreground">
           I'm a passionate individual navigating the complexities of modern life while staying grounded in the beauty of the natural world. This space is a reflection of my journey, my work, and the things that inspire me.
         </p>
